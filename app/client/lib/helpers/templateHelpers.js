@@ -219,8 +219,8 @@ Template.registerHelper('toChecksumAddress', function(address){
 Takes a camelcase and shows it with spaces
 
 @method toSentence
-@param {string} camelCase    A name in CamelCase or snake_case format
-@return {string} sentence    The same name with spaces
+@param {string} camelCase     A name in CamelCase or snake_case format
+@return {string} sentence     The same name with spaces
 **/
 Template.registerHelper('toSentence', Helpers.toSentence);
 
