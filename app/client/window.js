@@ -20,5 +20,4 @@ $(window).on('scroll', function() {
         $('.dapp-header').removeClass('dapp-small');
         $('.dapp-sticky-bar').removeClass('sticky');
     }
-})
-
+}) 
