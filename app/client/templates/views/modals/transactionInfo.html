@@ -3,7 +3,7 @@
         <h1>
             {{i18n "wallet.transactions.transactionInfoTitle"}}
             {{#if $eq ($.Session.get "network") "main"}} 
-                <a href="https://poseidon.pirl.io/explorer/transaction/{{transactionHash}}" target="_blank" style="font-size: 0.4em;">{{transactionHash}}</a>
+                <a href="https://explorer.ether1.org/tx/{{transactionHash}}" target="_blank" style="font-size: 0.4em;">{{transactionHash}}</a>
             {{else}}
                 {{#if $eq ($.Session.get "network") "rinkeby"}}
                     <a href="http://rinkeby.etherscan.io/tx/{{transactionHash}}" target="_blank" style="font-size: 0.4em;">{{transactionHash}}</a>
@@ -45,7 +45,7 @@
                             {{#if $neq unit 'ether'}}
                                 <br>
                                 <small>
-                                    ({{dapp_formatBalance value "0,0.00[000000] " "ether"}} PIRL)
+                                    ({{dapp_formatBalance value "0,0.00[000000] " "ether"}} ETHO)
                                 </small>
                             {{/if}}
                         {{/if}}
