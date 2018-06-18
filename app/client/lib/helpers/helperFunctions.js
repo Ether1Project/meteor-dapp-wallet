@@ -319,7 +319,7 @@ Helpers.formatTransactionBalance = function(value, exchangeRates, unit) {
         return EthTools.formatNumber(price, format) + ' '+ unit.toUpperCase();
     } else {
         if (unit == 'ether') {
-            return EthTools.formatBalance(value, format + '[0000000000000000]') + ' PIRL';
+            return EthTools.formatBalance(value, format + '[0000000000000000]') + ' ETHO';
         } else {
             return EthTools.formatBalance(value, format + '[0000000000000000] UNIT');
         }
