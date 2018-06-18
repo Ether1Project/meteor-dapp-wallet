@@ -108,8 +108,8 @@ var connect = function(){
     }
 }
 Meteor.startup(function(){
-    // delay so we make sure the data is already loaded from the indexedDB
-    // TODO improve persistent-minimongo2 ?
+    //  delay so we make sure the data is already loaded from the indexedDB
+    //  TODO improve persistent-minimongo2 ?
     Meteor.setTimeout(function() {
         connect();
     }, 3000);
