@@ -707,3 +707,4 @@ Template['views_send'].events({
         }
     }
 });
+ 
